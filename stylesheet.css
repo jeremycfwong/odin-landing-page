@@ -9,6 +9,17 @@ header{
     color: #F9FAF8;
 }
 
+button {
+    background-color: #3882F6;
+    border: 0px;
+    color: white;
+    border-radius: 4px;
+    padding: 7px 20px;
+    margin-top: 0;
+    width: 100px;
+}
+
+/*navbar items*/
 .nav-bar {
     width: 80%;
     max-width: 1250px;
@@ -23,19 +34,16 @@ header{
     font-weight: bold;
 }
 
-header a {
+.nav-bar-links {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.nav-bar-links {
     margin: auto;
     flex: 2;
     display: flex;
     justify-content: space-between;
-
 }
 
+/*hero banner items*/
 .hero {
     width: 80%;
     max-width: 1250px;
@@ -60,20 +68,10 @@ header a {
     color: #F9FAF8;
 }
 
-img {
+.hero img {
     height: 250px;
     margin-left: 50px;
     flex: 5.5;
-}
-
-button {
-    background-color: #3882F6;
-    border: 0px;
-    color: white;
-    border-radius: 4px;
-    padding: 7px 20px;
-    margin-top: 0;
-    width: 100px;
 }
 
 .hero-para {
@@ -83,6 +81,7 @@ button {
     padding-bottom: 0;
 }
 
+/*section items*/
 .section-title {
     text-align: center;
     padding-top: 20px;
@@ -107,6 +106,7 @@ button {
     margin: 0 auto 100px;
 }
 
+/*section items - cards*/
 .card{
     display: wrap;
     width: 150px;
@@ -118,6 +118,7 @@ button {
     color: #767d88;
 }
 
+/*quote items*/
 .quote-section{
     background-color: #E5E7EB;
     display: flex;
@@ -148,6 +149,7 @@ button {
     padding-bottom: 60px;
 }
 
+/*call to action items*/
 .call-to-action {
     width: 80%;
     max-width: 1250px;
@@ -187,6 +189,7 @@ button {
     font-weight: bold;
 }
 
+/*footer items*/
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
